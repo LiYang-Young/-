@@ -15,6 +15,7 @@
 		B62FF28220FDF311006F7EEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FF28120FDF311006F7EEF /* main.m */; };
 		B62FF28C20FDF312006F7EEF /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FF28B20FDF312006F7EEF /* ____Tests.m */; };
 		B62FF29720FDF312006F7EEF /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FF29620FDF312006F7EEF /* ____UITests.m */; };
+		B62FF2A620FDF3AB006F7EEF /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FF2A520FDF3AB006F7EEF /* LockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B62FF29220FDF312006F7EEF /* 手势解锁UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手势解锁UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62FF29620FDF312006F7EEF /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		B62FF29820FDF312006F7EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62FF2A420FDF3AB006F7EEF /* LockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		B62FF2A520FDF3AB006F7EEF /* LockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B62FF27320FDF310006F7EEF /* AppDelegate.m */,
 				B62FF27520FDF310006F7EEF /* ViewController.h */,
 				B62FF27620FDF310006F7EEF /* ViewController.m */,
+				B62FF2A420FDF3AB006F7EEF /* LockView.h */,
+				B62FF2A520FDF3AB006F7EEF /* LockView.m */,
 				B62FF27820FDF310006F7EEF /* Main.storyboard */,
 				B62FF27B20FDF311006F7EEF /* Assets.xcassets */,
 				B62FF27D20FDF311006F7EEF /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B62FF27720FDF310006F7EEF /* ViewController.m in Sources */,
+				B62FF2A620FDF3AB006F7EEF /* LockView.m in Sources */,
 				B62FF28220FDF311006F7EEF /* main.m in Sources */,
 				B62FF27420FDF310006F7EEF /* AppDelegate.m in Sources */,
 			);

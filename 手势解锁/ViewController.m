@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LockView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor grayColor];
+    
+    LockView * view = [[LockView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, self.view.frame.size.height - 50)];
+    [self.view addSubview:view];
 }
 
 
